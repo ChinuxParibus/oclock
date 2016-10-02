@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>O' Clock | By Ch1nux Par1bus</title>
+	<link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD9/f0A/f//AP///wAICAcA6+PaAPz8/AD+/v4A6OLcAAoKCgDop2EABQUFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiJIMzM0YiIiJDMzMzNFIiJDM5mZgzQCJDg5mZmYM0JDOJmZmZmDNEM5mZmZmZM0QzmZmZmZkzRDOZmaqqmTNEM5mZmpmZM0QzmZmZqZkzRDOZmZmamTNCQzmZmZmaNyJDM5mZmaM0IiQzOZmTOkIiIkMzMzM0IiIiJIMzM0EiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+	<link rel="stylesheet" href="siimple.min.css">
+	<link rel="stylesheet" href="icono.min.css">
+	<style>
+		body {background-color: #61A7E8;}
+		.text {color: #FAEBD7;}
+		h1 {font-size: 4em;}
+		h1, h3 {display: block; line-height: inherit;}
+		.header {padding-top: 10%; text-align: center;}
+	</style>
+</head>
+<body class="container" onload="setInterval(oclock, 1000)">
+	<div class="header">
+		<i class="icono-clock"></i>
+		<h1 class="text">O'Clock</h1>
+		<h2 id="clock" class="text">Loading... Be patient...</h2>
+		<h3 id="typewriter" class="text"></h3>
+	</div>
+	<script src="minified.js"></script>
+	<script src="typewriter.min.js"></script>
+	<script src="clock.js"></script>
+</body>
+</html>
